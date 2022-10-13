@@ -1,0 +1,189 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    margin:0;
+}
+
+/* <!--Header--> */
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #C4DBE9;
+    border: 1px solid rgb(82, 113, 130);
+}
+
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+    font-family: 'Alata', sans-serif;
+}
+
+header .logo {
+    flex: 1;
+    font-family:'Fredoka One', cursive;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    color: #E8E7AC;
+    text-shadow: -4px 0px 1px  #FA8EB5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li{
+    padding-left: 3.5rem;
+    list-style-type: none;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6; 
+    font-size: 1rem;
+    font-family: 'Alfa Slab One', cursive;
+    color:rgb(48, 95, 146);
+}
+
+
+/* <!--Hero image/banner--> */
+ main .banner {
+    display:flex;
+    background-image: url("./images/Truck+Main+Street+Brick+Wall-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 30rem;
+}
+
+/* <!-- Main Content --> */
+main {
+    background-color: #E8ACAC;
+}
+
+/* <!--Product--> */
+.ice-cream h2{
+    font-family:'Fredoka One', cursive;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #EAE8F3;
+    text-shadow: -4px 0px 1px  #FDD02D ;
+    display: flex;
+    justify-content: center;
+}
+
+.ice-cream p{
+    font-family: 'Alata', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(1, 43, 61);
+    padding: 0 1.6rem;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.menu img {
+    height: 45%;
+    width: 45%;
+    /* width: 25%;
+    height: 25%; */
+    border-radius: 5%;
+    box-shadow: 0px 0px 17px 4px rgb(69, 69, 69);
+}
+
+.tastes {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.tastes img {
+    border: 1px solid red;
+    height: 55%;
+    width: 55%;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tastes p{
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Fredoka One', cursive;
+    font-family: 'Lemon', cursive; */
+    color:rgb(77, 101, 111);
+}
+/* <!--About us--> */
+.our-team { 
+
+    margin-top: 2rem;
+    background-color: #E8E7AC;
+    background-image: url('./images/—Pngtree—chocolate\ and\ strawberry\ ice\ cream_4971312.png');
+    background-position: center;
+    background-repeat: round;
+    background-size: contain;
+}
+
+.our-team h2{
+    font-family:'Fredoka One', cursive;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    color: rgb(148, 203, 203);
+    text-transform: uppercase;
+    text-shadow: 4px 0px 1px black;
+    display:flex;
+    justify-content: center;
+
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+.zebra img, .cat img {
+    height: 16rem;
+    width: 14rem;
+    border-radius: 20%;
+    box-shadow: 0px 0px 17px 4px rgba(100,116,161,1);
+}
+
+.lemur img {
+    height: 16rem;
+    width: 14rem;
+    border-radius: 20%;
+    box-shadow: 0px 0px 17px 4px rgba(100,116,161,1);
+}
+
+.zebra p,  .lemur p, .cat p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lemon', cursive;
+    color:rgb(1, 43, 61);
+}
+/* <!--Contacts-->  */
+footer { 
+    display: flex;
+    justify-content: space-around;
+    background-color: #9C9B7B;
+    border: 2px solid red;
+}
+.map{
+    border: 2px solid red;
+}
+.contacts {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    color: rgb(1, 43, 61);
+    border: 2px solid red;
+}
